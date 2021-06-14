@@ -1,0 +1,128 @@
+.Banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  color:white
+}
+.headertag{
+   border: red;
+}
+.location{
+  position: absolute;
+  border: 5px solid white;
+  border-radius: 1%;
+  font-size: 40%;
+  background-color: #ffffff;
+  top:60%;
+  left: 30%;
+  margin:10px ;
+  cursor:pointer;
+  }
+  .search{
+    position:absolute;
+    border: 5px solid white;
+    border-radius: 1%;
+    font-size: 40%;
+     background-color: #ffffff;
+     top: 60%;
+     left:60%;
+     cursor:pointer;
+     width: 30%;
+     
+  }
+  .location:hover{
+    background-color: yellow;
+  }
+  
+  .search:hover{
+    background-color: yellow;
+  }
+.account{
+  background-color: red;
+  width:100%;
+  font-size: 20px;
+  border: 1px solid white;
+  margin: 5px;
+  cursor: pointer;
+  padding-inline: 5px;;
+}
+.account:hover{
+  background-color:palegreen;
+  color:red;
+  
+  }
+.login{
+  background-color: red;
+  
+  font-size: 20px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color:white;
+  float: left;
+  
+  }
+
+   div {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    }
+  #Discover {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  
+  }
+  .rectangle
+  {
+    width: 300px;
+    height: 160px;
+    display: block;
+    margin: 10px;
+    box-shadow: 0 3px 6px 0 rgba(69, 8, 236, 0.16);
+    background-color: #ffffff;
+    float: left;
+    }
+    .image{
+      width: 50%;
+      height: 160px;
+      display:inline-block ;
+      }
+        
+     .text{
+        display: inline-block;
+        width:35%;  
+        font-size: 20px;
+      }
+      .headertxt{
+        font-size: 30px;
+        
+      }
+      .contenttxt{
+        font-size: large;
+        font-weight: 100;
+        
+        
+      }
+      .rows{
+        display: inline-block; 
+      }

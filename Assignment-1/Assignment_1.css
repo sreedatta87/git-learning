@@ -1,0 +1,190 @@
+*{
+box-sizing: border-box;
+}
+.header{
+    background-color: red;
+    height:40px;
+}
+
+.header-logo{
+    background-color: white;
+    height: 30px;
+    width: 40px;
+    color: red;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 3px 2px 3px 45px;
+    padding: 3px;
+    font-size: 25px;
+}
+.headertxt{
+    color:white;
+    float: right;
+}
+.login{
+    display: inline-block;
+    cursor:pointer;
+}
+.Account{
+  
+        display: inline-block;
+        border: 3px solid white;
+        margin: 5px 5px 5px 5px;
+        cursor: pint;
+        padding: 3px 5px 2px 5px;
+        cursor: pointer;
+}
+
+.sub-heading{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;  
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.filterbox{
+    height: 600px;
+    box-shadow: 0 2px 6px 0 blue;
+    margin: auto;
+    padding: 25px 32.6px 20px 35px;
+    background-color: #ffffff;
+}
+
+.item{
+    width: 550px;
+    height:250px;
+    box-shadow: 0 2px 6px 0 blue;
+    margin-bottom:10px;
+    margin-left: 40px;
+    
+}
+   .img{
+    width: 130px;
+    height:130px;
+    padding: 10px;
+    border: 2px soild black;
+    border-radius: 35px;
+    
+    }
+    .imagesrc1{
+        display: inline-block;
+    }
+
+    .sub-address{
+    font-weight: 400px;
+    font-family: Poppins;
+    font-size: x-large;
+    font-stretch: normal;
+    font-style: normal;
+    vertical-align: top;
+    letter-spacing: normal;
+    color: #192f60;
+    text-align: left;
+    }
+
+.sub-address1{
+              
+ font-family: Poppins;
+ font-size: large;
+ font-stretch: normal;
+ font-style: normal;
+ vertical-align: top;
+ letter-spacing: normal;
+ color: #192f60;
+ text-align: left;
+ } 
+
+  .sub-address2{
+              
+ font-family: Poppins;
+ font-size: 15px;
+ font-stretch: normal;
+ font-style: normal;
+ vertical-align: top;
+ letter-spacing: normal;
+ color: #192f60;
+ text-align: left;
+ }
+
+
+    .address{
+    
+    display: inline-block; 
+    font-size: 10px;
+    text-align: right;
+    vertical-align: top;
+    padding: 30px;
+      }
+     
+   .bakery{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    padding:0px 15px 2px 20px;
+   }
+   .cost{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    padding:0px 15px 2px 20px;
+   }
+   .filters{
+       padding:5px;
+       font-weight: bold;
+
+   }
+   .location{
+       padding:8px;
+       font-weight: bold;
+   }
+   .cuision,.CostTwo,.sort{
+    padding: 8px;
+    font-weight: bold;
+    color:blueviolet
+   }
+
+   .checkbox{
+      padding: 5px 2px 3px 5px;
+   }
+
+   .radiobutton{
+    padding: 5px 2px 3px 5px;
+   }
+   .radiobutton1{
+    padding: 5px 2px 3px 5px;
+   }
+   .pagenation{
+       display: inline-block;
+       margin-left: 500px;
+
+   }
+   .pagenation a{
+    color: crimson;
+    float: left;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px 10px;
+   }
+   .pagenation a:hover{
+          background-color: green;
+   }
+   .row{
+       padding:10px;
+   }
